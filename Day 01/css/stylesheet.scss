@@ -1,0 +1,100 @@
+@import "grid";
+@import "normalize";
+@import "reset";
+@import url("https://fonts.googleapis.com/css?family=Chivo");
+
+/*general styles start*/
+body {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+/*general styles end*/
+
+/*header styles start*/
+header {
+	font-family: 'Chivo', sans-serif;
+	h1 {
+		font-size: 36px;
+		line-height: 200px;
+	}
+	ul {
+		text-align: right;
+		li {
+			list-style-type: none;
+			display: inline-block;
+			margin-left: 10px;
+			font-size: 22px;
+			line-height: 200px;
+			a {
+				padding: 10px;
+				transition: background-color 0.5s ease;
+				&:hover {
+					background-color: #d2d7d3;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 1200px) {
+	header {
+		text-align: center;
+		h1 {
+			line-height: 100px;
+		}
+		ul {
+			text-align: center;
+			li {
+				line-height: 100px;
+			}
+		}
+	}	
+}
+/*header styles end*/
+
+/*gallery styles start*/
+main {
+	text-align: center;
+	div {
+		margin: 0;
+		padding: 0 !important;
+		a {
+			opacity: 1;
+			transition: 0.5s ease;
+			&:hover {
+				opacity: 0.5;
+			}
+			img {
+				width: 100%;
+			}
+		}
+	}
+}
+/*gallery styles end*/
+
+/*footer styles start*/
+footer {
+	font-family: 'Chivo', sans-serif;
+	ul {
+		text-align: center;
+		li {
+			list-style-type: none;
+			display: inline-block;
+			font-size: 18px;
+			line-height: 150px;
+			a {
+				padding: 10px;
+				transition: background-color 0.5s ease;
+				&:hover {
+					background-color: #d2d7d3;
+				}
+			}
+		}
+	}
+}
+/*footer styles end*/
