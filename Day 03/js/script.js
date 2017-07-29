@@ -1,11 +1,3 @@
-// function openNav() {
-// 	document.getElementById("mySideNav").style.left = "250px";
-// }
-
-// function closeNav() {
-// 	document.getElementById("mySideNav").style.left = "0px";
-// }
-
 $(".openNav").click(function() {
 	$(".sideNav").animate( {
 		// target keyframe

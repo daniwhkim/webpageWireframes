@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins");
 @-ms-viewport {
   width: device-width; }
 .visible-xs,
@@ -1287,24 +1286,21 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/*general style start*/
 body {
   margin: 0;
-  padding: 0;
-  font-family: 'Poppins', sans-serif; }
+  padding: 0; }
   body a {
     text-decoration: none;
     color: black; }
 
-/*general styles end*/
-/*header & footer styles start*/
 header {
   padding: 50px 0px 0px 20px; }
   header h1 {
     font-size: 36px; }
   header h2 {
     padding: 20px 0px 0px 0px;
-    color: grey; }
+    color: grey;
+    font-size: 22px; }
 
 nav,
 footer {
@@ -1317,8 +1313,6 @@ footer {
     footer ul li a:hover {
       background-color: yellow; }
 
-/*header & footer styles end*/
-/*main section styles start*/
 main div {
   position: relative;
   transition: 0.5s ease; }
@@ -1337,8 +1331,7 @@ main div {
     transform: translate(-50%, -50%); }
     main div .overlay h3 {
       background-color: #efefef;
-      padding: 20px; }
-
-/*main section styles end*/
+      padding: 20px;
+      font-size: 18px; }
 
 /*# sourceMappingURL=stylesheet.css.map */

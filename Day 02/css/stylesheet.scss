@@ -1,21 +1,16 @@
 @import "grid";
 @import "normalize";
 @import "reset";
-@import url("https://fonts.googleapis.com/css?family=Poppins");
 
-/*general style start*/
 body {
 	margin: 0;
 	padding: 0;
-	font-family: 'Poppins', sans-serif;
 	a {
 		text-decoration: none;
 		color: black;
 	}
 }
-/*general styles end*/
 
-/*header & footer styles start*/
 header {
 	padding: 50px 0px 0px 20px;
 	h1 {
@@ -24,6 +19,7 @@ header {
 	h2 {
 		padding: 20px 0px 0px 0px;
 		color: grey;
+		font-size: 22px;
 	}
 }
 
@@ -42,9 +38,7 @@ footer {
 		}
 	}
 }
-/*header & footer styles end*/
 
-/*main section styles start*/
 main {
 	div {
 		position: relative;
@@ -71,8 +65,8 @@ main {
 			h3 {
 				background-color: #efefef;
 				padding: 20px;
+				font-size: 18px;
 			}
 		}
 	}
 }
-/*main section styles end*/

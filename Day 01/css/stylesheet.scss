@@ -1,9 +1,7 @@
 @import "grid";
 @import "normalize";
 @import "reset";
-@import url("https://fonts.googleapis.com/css?family=Chivo");
 
-/*general styles start*/
 body {
 	margin: 0;
 	padding: 0;
@@ -13,11 +11,8 @@ a {
 	text-decoration: none;
 	color: black;
 }
-/*general styles end*/
 
-/*header styles start*/
 header {
-	font-family: 'Chivo', sans-serif;
 	h1 {
 		font-size: 36px;
 		line-height: 200px;
@@ -53,11 +48,9 @@ header {
 				line-height: 100px;
 			}
 		}
-	}	
+	}
 }
-/*header styles end*/
 
-/*gallery styles start*/
 main {
 	text-align: center;
 	div {
@@ -75,11 +68,8 @@ main {
 		}
 	}
 }
-/*gallery styles end*/
 
-/*footer styles start*/
 footer {
-	font-family: 'Chivo', sans-serif;
 	ul {
 		text-align: center;
 		li {
@@ -97,4 +87,3 @@ footer {
 		}
 	}
 }
-/*footer styles end*/
