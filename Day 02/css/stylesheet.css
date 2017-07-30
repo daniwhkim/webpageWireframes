@@ -1311,7 +1311,7 @@ footer {
     line-height: 32px; }
     nav ul li a:hover,
     footer ul li a:hover {
-      background-color: yellow; }
+      border-bottom: 1px solid #DADEDF; }
 
 main div {
   position: relative;
@@ -1330,7 +1330,7 @@ main div {
     left: 50%;
     transform: translate(-50%, -50%); }
     main div .overlay h3 {
-      background-color: #efefef;
+      background-color: #C1C7C9;
       padding: 20px;
       font-size: 18px; }
 

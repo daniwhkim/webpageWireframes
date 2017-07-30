@@ -1309,7 +1309,7 @@ header ul {
       padding: 10px;
       transition: background-color 0.5s ease; }
       header ul li a:hover {
-        background-color: #d2d7d3; }
+        background-color: #F2F3F4; }
 
 @media (max-width: 1200px) {
   header {
@@ -1329,7 +1329,7 @@ main {
       opacity: 1;
       transition: 0.5s ease; }
       main div a:hover {
-        opacity: 0.5; }
+        opacity: 0.8; }
       main div a img {
         width: 100%; }
 
@@ -1344,6 +1344,6 @@ footer ul {
       padding: 10px;
       transition: background-color 0.5s ease; }
       footer ul li a:hover {
-        background-color: #d2d7d3; }
+        background-color: #F2F3F4; }
 
 /*# sourceMappingURL=stylesheet.css.map */

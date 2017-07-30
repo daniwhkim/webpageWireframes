@@ -1294,7 +1294,7 @@ a {
   color: black; }
 
 nav {
-  background-color: #F2F3F4;
+  background-color: #DADEDF;
   height: 100%;
   width: 250px;
   position: fixed;
@@ -1336,13 +1336,17 @@ aside {
 
 .left {
   left: 20px; }
+  .left a:hover {
+    border-right: 1px solid #DADEDF; }
 
 .right {
   right: 20px; }
+  .right a:hover {
+    border-left: 1px solid #DADEDF; }
 
 main {
   height: 100%;
-  background-color: #EFEFEF;
+  background-color: #F2F3F4;
   width: 80%;
   text-align: center;
   position: absolute;
